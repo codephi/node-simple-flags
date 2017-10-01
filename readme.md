@@ -42,7 +42,7 @@ console.log(flags(options))
 
 ### Command
 ```shell
-node test.js 'Philippe Assis' ${HOME} --site www.philippeassis.com --github=https://github.com/PhilippeAssis -d --coffee -not -c 'Brazil=Fora Temer'
+node test.js 'Philippe Assis' ${HOME} --site www.philippeassis.com --github=https://github.com/PhilippeAssis -d --coffee -not -c 'Brazil'
 ```
 
 
@@ -51,7 +51,7 @@ node test.js 'Philippe Assis' ${HOME} --site www.philippeassis.com --github=http
 { coffee: true,
   not: false,
   developer: true,
-  country: 'Brazil=Fora Temer',
+  country: 'Brazil',
   site: 'www.philippeassis.com',
   github: 'https://github.com/PhilippeAssis',
   author: 'Philippe Assis',
